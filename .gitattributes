@@ -1,1 +1,1 @@
-*.js linguist-language=cpp
+*.cpp linguist-detectable=true
