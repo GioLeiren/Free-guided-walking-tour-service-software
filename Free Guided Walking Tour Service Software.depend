@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1650416340 source:c:\c c++\t2-tp1-202014280-202042829-202063640\bibliotecas\dominios.cpp
+	"dominios.h"
+
+1650416340 c:\c c++\t2-tp1-202014280-202042829-202063640\bibliotecas\dominios.h
+	<random>
+	<iostream>
+	<string>
+	<unordered_set>
+	<unordered_map>
+	<list>
+	<vector>
+	<algorithm>
+	<iterator>
+	<stdexcept>
+	<initializer_list>
+
+1650416340 source:c:\c c++\t2-tp1-202014280-202042829-202063640\bibliotecas\entidades.cpp
+	"entidades.h"
+
+1650416340 c:\c c++\t2-tp1-202014280-202042829-202063640\bibliotecas\entidades.h
+	"dominios.h"
+
+1650416340 source:c:\c c++\t2-tp1-202014280-202042829-202063640\main.cpp
+	"interfaces.h"
+	"./controladoras/apresentacao/CntrAprControle.h"
+	"./controladoras/apresentacao/CntrAprAutenticacao.h"
+	"./controladoras/apresentacao/CntrAprExcursao.h"
+	"./controladoras/apresentacao/CntrAprUsuario.h"
+	"./controladoras/servico/CntrServUsuario.h"
+	"./controladoras/servico/CntrServAutenticacao.h"
+	"./controladoras/servico/CntrServExcursao.h"
+
+1650416340 c:\c c++\t2-tp1-202014280-202042829-202063640\interfaces.h
+	"./bibliotecas/dominios.h"
+	"./bibliotecas/entidades.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\apresentacao\cntraprcontrole.h
+	"../../interfaces.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\apresentacao\cntraprautenticacao.h
+	"../../interfaces.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\apresentacao\cntraprexcursao.h
+	"../../interfaces.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\apresentacao\cntraprusuario.h
+	"../../interfaces.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\servico\cntrservusuario.h
+	"../../interfaces.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\servico\cntrservautenticacao.h
+	"../../interfaces.h"
+
+1650426480 c:\c c++\t2-tp1-202014280-202042829-202063640\controladoras\servico\cntrservexcursao.h
+	"../../interfaces.h"
+

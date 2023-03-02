@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="T2-TP1-202014280-202042829-202063640" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/T2-TP1-202014280-202042829-202063640" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/T2-TP1-202014280-202042829-202063640" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="bibliotecas/dominios.cpp" />
+		<Unit filename="bibliotecas/dominios.h" />
+		<Unit filename="bibliotecas/entidades.cpp" />
+		<Unit filename="bibliotecas/entidades.h" />
+		<Unit filename="controladoras/apresentacao/CntrAprAutenticacao.cpp" />
+		<Unit filename="controladoras/apresentacao/CntrAprAutenticacao.h" />
+		<Unit filename="controladoras/apresentacao/CntrAprControle.cpp" />
+		<Unit filename="controladoras/apresentacao/CntrAprControle.h" />
+		<Unit filename="controladoras/apresentacao/CntrAprExcursao.cpp" />
+		<Unit filename="controladoras/apresentacao/CntrAprExcursao.h" />
+		<Unit filename="controladoras/apresentacao/CntrAprUsuario.cpp" />
+		<Unit filename="controladoras/apresentacao/CntrAprUsuario.h" />
+		<Unit filename="controladoras/servico/CntrServAutenticacao.cpp" />
+		<Unit filename="controladoras/servico/CntrServAutenticacao.h" />
+		<Unit filename="controladoras/servico/CntrServExcursao.cpp" />
+		<Unit filename="controladoras/servico/CntrServExcursao.h" />
+		<Unit filename="controladoras/servico/CntrServUsuario.cpp" />
+		<Unit filename="controladoras/servico/CntrServUsuario.h" />
+		<Unit filename="interfaces.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
